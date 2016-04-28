@@ -1,4 +1,4 @@
-f pymongo import MongoClient
+from pymongo import MongoClient
 import time
 def saveReviews(start_urls,allowed_domains,items):
 	Client = MongoClient()
